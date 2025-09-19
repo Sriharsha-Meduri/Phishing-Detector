@@ -1,5 +1,5 @@
 // --- Replace GOOGLE_SAFE_BROWSING_API_KEY usage with VirusTotal ---
-const VIRUSTOTAL_API_KEY = "0cfdaba1d57f45d0d15ebc3cf82c4f63769d093c9ef8e47f8cf6049a9f0e7385";
+const VIRUSTOTAL_API_KEY = ;
 const OPEN_PHISH_FEED_URL = "https://openphish.com/feed.txt";
 
 // Convert URL to VirusTotal URL id (base64 url-safe, no padding)
@@ -189,3 +189,4 @@ function showWarningBanner() {
     banner.innerText = "⚠️ WARNING: This site is flagged as phishing!";
     document.body.prepend(banner);
 }
+
